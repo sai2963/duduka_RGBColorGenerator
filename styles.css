@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(45deg,black,grey);
+}
+.card{
+    width: 45%;
+    margin: 100px auto;
+    box-shadow: 4px 4px 8px white;
+}
+.card-header{
+    text-align: center;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.color-box{
+    width: 380px;
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: black;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.btn1{
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    font-family: sans-serif;
+    
+}
+.RGB{
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color:blanchedalmond;
+    font-family: sans-serif;
+    padding: 5px;
+}
